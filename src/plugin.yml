@@ -1,0 +1,8 @@
+name: MineReset
+main: net.gkovalechyn.minereset.MineReset
+author: gkovalechyn
+version: 1.0
+commands:
+    mr:
+        usage: "/mr <create|delete|set>"
+        description: "Main command"

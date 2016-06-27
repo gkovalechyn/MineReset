@@ -1,0 +1,64 @@
+ColorChar: "&"
+Error:
+    NoPermission: You don't have the permission {Permission} to execute this command.
+    ConsoleNotSupported: This command does not support the console.
+    NoSuchMine: That mine does not exist.
+    MissingValue: The value {Value} is missing from this mine.
+    AlreadyEnabled: That mine is already enabled.
+    NotSet: That mine is not enabled.
+    NoTargetBlock: You are not looking at a block.
+    NotDisabled: The mine is not disabled.
+    NotEanbled: The mine is not enabled.
+    MineAlreadyExists: A mine with that name already exists.
+    NoCommand: That command does not exist.
+    MissingCommand: "You are missing a command, type /mr <command>. Command list:"
+    NoSuchResetCondition: That reset condition type does not exist.
+Info:
+    Reset: Mine {Mine} is being reset.
+    ResetTime: Mine {Mine} will be reset in {Time}.
+    MineEnabled: Mine {Mine} enabled.
+    MineDisabled: Mine {Mine} disabled.
+    MineDisabledReset: Mine {Mine} is resetting, it will be disabled after the reset.
+    Set: "{Param} set to {Value}."
+    Created: Mine created.
+    Deleted: Mine deleted.
+    DeletedReset: Mine will be deleted once the reset finishes.
+    
+CommandStrings:
+    Set:
+        Parameters: The set command parameters.
+        From: The from location. (Look at block)
+        To: The to location. (Look at block)
+        ResetPosition: The exit location. (Your position)
+        ResetType: When should the mine reset, time or percentage dug.
+        ResetInterval: The interval between each reset.
+        ResetPercentage: The percentage needed of air blocks for the Mine to be reset. (0.0 to 1.0)
+        Materials: The Blocks that will fill the mine.
+        
+General:
+    Header: "&4-----&9MineReset&4-----"
+    Footer: "&4-----------------------"
+Commands:
+    List:
+        Description: Lists all mines and their states.
+    Info:
+        Description: Shows information about a specific Mine.
+        Usage: /mr info <mine>
+    Set:
+        Description: Sets the settings of a mine.
+        Usage: /mr set <mine> <parameter> <value>
+    Reset:
+        Description: Forces the reset of a mine.
+        Usage: /mr reset <mine>
+    Create:
+        Description: Creates a mine.
+        Usage: /mr create <mine>
+    Delete:
+        Description: Deletes a mine.
+        Usage: /mr delete <mine>
+    Enable:
+        Description: Enables a mine.
+        Usage: /mr enable <mine>
+    Disable:
+        Description: Disables a mine.
+        Usage: /mr disable <mine>
